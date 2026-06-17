@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+
+# Datasets and derived artifacts
+data/
+dataset/
+datasets/
+gossipcop/
+Weibo_21/
+extracted_features/
+visualizations/
+*.csv
+*.tsv
+*.jsonl
+
+# Model weights and parameters
+model_weights/
+param_model/
+pretrained_model/
+*.pt
+*.pth
+
+# Serialized datasets / artifacts
+*.pkl
+*.npz
+*.zip
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
